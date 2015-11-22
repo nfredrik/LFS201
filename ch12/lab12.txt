@@ -1,0 +1,162 @@
+Script started on sön 22 nov 2015 18:14:23
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ dd if/dex[Kv/zero of=/tm p/imagefile bs [K=1M count [K250[K[K[K=250
+dd: unrecognized operand ‘if/dev/zero’
+Try 'dd --help' for more information.
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ dd if/dev/zero of=/tmpp/imagefile bs=1M count=250[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C=/dev/zero of=/tm[1@p[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C
+
+250+0 records in
+250+0 records out
+262144000 bytes (262 MB) copied, 0,571795 s, 458 MB/s
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ sduo mkfs -t ext4 -c[Kcc [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kv  /tmp/
+appendit              unity_support_test.1
+config-err-ZtAbof     .X0-lock
+.ICE-unix/            .X11-unix/
+imagefile             
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ sduo mkfs -t ext4 -v //tmp/imagefile [A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[5P(reverse-i-search)`': sduo mkfs -t ext4 -v /tmp/imagefile
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ sduo mkfs -t ext4 -v //tmp/imagefile [A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[Cuo mkfs -t ext4 -v /tm[2P[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ suo mkfs -t ext4 -v /t[1@m[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[Cdo mkfs -t ext4 -v /[1@t[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C
+
+[sudo] password for fredrik: 
+mke2fs 1.42.9 (4-Feb-2014)
+/tmp/imagefile is not a block special device.
+Proceed anyway? (y,n) y
+fs_types for mke2fs.conf resolution: 'ext4', 'small'
+Discarding device blocks:   1024/256000             done                            
+Discard succeeded and will return 0s - skipping inode table wipe
+Filesystem label=
+OS type: Linux
+Block size=1024 (log=0)
+Fragment size=1024 (log=0)
+Stride=0 blocks, Stripe width=0 blocks
+64000 inodes, 256000 blocks
+12800 blocks (5.00%) reserved for the super user
+First data block=1
+Maximum filesystem blocks=67371008
+32 block groups
+8192 blocks per group, 8192 fragments per group
+2000 inodes per group
+Superblock backups stored on blocks: 
+	8193, 24577, 40961, 57345, 73729, 204801, 221185
+
+Allocating group tables:  0/32     done                            
+Writing inode tables:  0/32     done                            
+Creating journal (4096 blocks): done
+Writing superblocks and filesystem accounting information:  0/32     done
+
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ sudo mkfs -t ext4 -v //tmp/imagefile [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-v [1@/[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb-v[1@ [A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -[1@v[1@2[1@0[1@4[1@8[1@ 
+mke2fs 1.42.9 (4-Feb-2014)
+/tmp/imagefile is not a block special device.
+Proceed anyway? (y,n) y
+fs_types for mke2fs.conf resolution: 'ext4', 'small'
+Discarding device blocks:   2048/128000             done                            
+Discard succeeded and will return 0s - skipping inode table wipe
+Filesystem label=
+OS type: Linux
+Block size=2048 (log=1)
+Fragment size=2048 (log=1)
+Stride=0 blocks, Stripe width=0 blocks
+64000 inodes, 128000 blocks
+6400 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=131072000
+8 block groups
+16384 blocks per group, 16384 fragments per group
+8000 inodes per group
+Superblock backups stored on blocks: 
+	16384, 49152, 81920, 114688
+
+Allocating group tables: 0/8   done                            
+Writing inode tables: 0/8   done                            
+Creating journal (4096 blocks): done
+Writing superblocks and filesystem accounting information: 0/8   done
+
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ sudo mkfs -t ext4 -b 22048 -v /tmp/imagefile [A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv
+[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb
+[8@2048 -v [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@4[1@0[1@9[1@6
+mke2fs 1.42.9 (4-Feb-2014)
+/tmp/imagefile is not a block special device.
+Proceed anyway? (y,n) y
+fs_types for mke2fs.conf resolution: 'ext4', 'small'
+Discarding device blocks:  4096/64000           done                            
+Discard succeeded and will return 0s - skipping inode table wipe
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+64000 inodes, 64000 blocks
+3200 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=67108864
+2 block groups
+32768 blocks per group, 32768 fragments per group
+32000 inodes per group
+Superblock backups stored on blocks: 
+	32768
+
+Allocating group tables: 0/2   done                            
+Writing inode tables: 0/2   done                            
+Creating journal (4096 blocks): done
+Writing superblocks and filesystem accounting information: 0/2   done
+
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ sudo mkdir /mnt/tempdiir/[K
+mkdir: cannot create directory ‘/mnt/tempdir’: File exists
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ sudo mkdir /mnt/tempdiir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm /tmp[K[K[Kmnt/tempdir/[K[C[Cd /mnt/tempdiri /mnt/tempdirr /mnt/tempdir[C /mnt/tempdir
+rmdir: failed to remove ‘/mnt/tempdir’: Permission denied
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ rmdir  /mnt/tempdir[C[C[C[C[C[1P[1P[1P[C[C /mnt/tempdir[1@-[1@f[1@r[C[C /mnt/tempdir [A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C
+
+rm: cannot remove ‘/mnt/tempdir’: Permission denied
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ rm -fr   /mnt/tempdir [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmount {[K| grep temp
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ lsatrr[K[Ktr /mnt/tempdir/[K
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ lsattr /mnt/tempdir[2Pmount | grep temprm -fr   /mnt/tempdir [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csrm -fr   /mnt/tempdirr[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [Curm -fr   /mnt/tempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[Cdrm -fr   /mnt/tempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[Corm -fr   /mnt/tempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C rm -fr   /mnt/tempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C
+
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ sudo rm -fr   /mnt/temmpdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [2Plsattr /mnt/tempdir
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo rm -fr   /mnt/temmpdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [2Plsattr /mnt/tempdir
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pmount | grep temprm -fr   /mnt/tempdir [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pdir
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo mkdir /mnt/tempdiir
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ sudo mount -o loop /t mp/imagefile /mnt/tempdir/[K
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ mon[Kunt | grep tempdir
+/tmp/imagefile on /mnt/[01;31m[Ktempdir[m[K type ext4 (rw)
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ mount | grep tempdirsudo mount -o loop /tmmp/imagefile /mnt/tempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[Cumount -o loop /t[1@m[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Co loop /tm[1P[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[C loop /tmp[1P[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Cloop /tmp/[1P[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Coop /tmp/i[1P[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[C[Cp /tmp/im[1P[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Cp /tmp/ima[1P[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[C /tmp/imag[1P[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[C/tmp/image[1P[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Ctmp/imagef[1P[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Cmp/imagefi[1P[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Cp/imagefil[1P[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[C/imagefile[1P /mnt/tempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Cimagefile [1P/mnt/tempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Cmagefile /[1Pmnt/tempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Cagefile /m[1Pnt/tempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Cgefile /mn[1Pt/tempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Cefile /mnt[1P/tempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Cfile /mnt/[1Ptempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Cile /mnt/t[1Pempdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Cle /mnt/te[1Pmpdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[Ce /mnt/tem[1Ppdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[C /mnt/temp[1Pdir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[C/mnt/tempd[1Pir[A]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ [C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ sudo mount -o ro, loo p /tmp/imagefile /mnt/tempdir/[K
+Usage: mount -V                 : print version
+       mount -h                 : print this help
+       mount                    : list mounted filesystems
+       mount -l                 : idem, including volume labels
+So far the informational part. Next the mounting.
+The command is `mount [-t fstype] something somewhere'.
+Details found in /etc/fstab may be omitted.
+       mount -a [-t|-O] ...     : mount all stuff from /etc/fstab
+       mount device             : mount device at the known place
+       mount directory          : mount known device here
+       mount -t type dev dir    : ordinary mount command
+Note that one does not really mount a device, one mounts
+a filesystem (of the given type) found on the device.
+One can also mount an already visible directory tree elsewhere:
+       mount --bind olddir newdir
+or move a subtree:
+       mount --move olddir newdir
+One can change the type of mount containing the directory dir:
+       mount --make-shared dir
+       mount --make-slave dir
+       mount --make-private dir
+       mount --make-unbindable dir
+One can change the type of all the mounts in a mount subtree
+containing the directory dir:
+       mount --make-rshared dir
+       mount --make-rslave dir
+       mount --make-rprivate dir
+       mount --make-runbindable dir
+A device can be given by name, say /dev/hda1 or /dev/cdrom,
+or by label, using  -L label  or by uuid, using  -U uuid .
+Other options: [-nfFrsvw] [-o options] [-p passwdfd].
+For many more details, say  man 8 mount .
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ ^C
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ ls
+lab12.txt  readme.txt
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch12fredrik@fredrik-VirtualBox:~/LFS201/ch12$ exi[K[K[K
+Script done on sön 22 nov 2015 18:20:59

@@ -1,0 +1,70 @@
+Script started on sön 22 nov 2015 21:13:34
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch13fredrik@fredrik-VirtualBox:~/LFS201/ch13$ cat /proc/swaps
+Filename				Type		Size	Used	Priority
+/dev/sda5                               partition	522236	272616	-1
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch13fredrik@fredrik-VirtualBox:~/LFS201/ch13$ dd if=/dev/zero of [K=swpf ile bs=1M count=1024
+1024+0 records in
+1024+0 records out
+1073741824 bytes (1,1 GB) copied, 6,3819 s, 168 MB/s
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch13fredrik@fredrik-VirtualBox:~/LFS201/ch13$ mkswap swp[Kapfile
+swapfile: No such file or directory
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch13fredrik@fredrik-VirtualBox:~/LFS201/ch13$ mkswap swapfile[K[K[K[K[K[Kpfile 
+Setting up swapspace version 1, size = 1048572 KiB
+no label, UUID=a84b4c2e-6082-4bca-9987-424de248c6c6
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch13fredrik@fredrik-VirtualBox:~/LFS201/ch13$ sduo[K[K[Kudo swapon swpfile 
+[sudo] password for fredrik: 
+Sorry, try again.
+[sudo] password for fredrik: 
+Sorry, try again.
+[sudo] password for fredrik: 
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch13fredrik@fredrik-VirtualBox:~/LFS201/ch13$ cat /proc/swaps 
+Filename				Type		Size	Used	Priority
+/dev/sda5                               partition	522236	272616	-1
+/home/fredrik/LFS201/ch13/swpfile       file		1048572	0	-2
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch13fredrik@fredrik-VirtualBox:~/LFS201/ch13$ sudo swapoff swpfile
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch13fredrik@fredrik-VirtualBox:~/LFS201/ch13$ sdi[K[Kudo rm swpfile
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch13fredrik@fredrik-VirtualBox:~/LFS201/ch13$ cat /etc/fstab
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda1 during installation
+UUID=798f4bdd-c488-43ff-be84-4df0529d3226 /               ext4    errors=remount-ro 0       1
+# swap was on /dev/sda5 during installation
+UUID=2c787c90-fcfd-439c-bef7-97e470052895 none            swap    sw              0       0
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch13fredrik@fredrik-VirtualBox:~/LFS201/ch13$ mout[Knt
+/dev/sda1 on / type ext4 (rw,errors=remount-ro)
+proc on /proc type proc (rw,noexec,nosuid,nodev)
+sysfs on /sys type sysfs (rw,noexec,nosuid,nodev)
+none on /sys/fs/cgroup type tmpfs (rw)
+none on /sys/fs/fuse/connections type fusectl (rw)
+none on /sys/kernel/debug type debugfs (rw)
+none on /sys/kernel/security type securityfs (rw)
+udev on /dev type devtmpfs (rw,mode=0755)
+devpts on /dev/pts type devpts (rw,noexec,nosuid,gid=5,mode=0620)
+tmpfs on /run type tmpfs (rw,noexec,nosuid,size=10%,mode=0755)
+none on /run/lock type tmpfs (rw,noexec,nosuid,nodev,size=5242880)
+none on /run/shm type tmpfs (rw,nosuid,nodev)
+none on /run/user type tmpfs (rw,noexec,nosuid,nodev,size=104857600,mode=0755)
+none on /sys/fs/pstore type pstore (rw)
+systemd on /sys/fs/cgroup/systemd type cgroup (rw,noexec,nosuid,nodev,none,name=systemd)
+gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,user=fredrik)
+/home/fredrik/LFS201/ch10/imagefile on /home/fredrik/LFS201/ch10/mnt type ext4 (rw)
+none on /mnt/tmpfs type tmpfs (rw)
+]0;fredrik@fredrik-VirtualBox: ~/LFS201/ch13fredrik@fredrik-VirtualBox:~/LFS201/ch13$ lsblk
+NAME      MAJ:MIN RM    SIZE RO TYPE MOUNTPOINT
+sda         8:0    0      8G  0 disk 
+├─sda1      8:1    0    7,5G  0 part /
+├─sda2      8:2    0      1K  0 part 
+├─sda4      8:4    0 1022,5K  0 part 
+└─sda5      8:5    0    510M  0 part [SWAP]
+sr0        11:0    1   1024M  0 rom  
+sr1        11:1    1   1006M  0 rom  
+loop0       7:0    0      1G  0 loop 
+loop1       7:1    0      1G  0 loop 
+├─loop1p1 259:0    0  244,1M  0 loop 
+├─loop1p2 259:1    0    243M  0 loop 
+└─l
